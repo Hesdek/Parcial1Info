@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include<time.h>
 #include<math.h>
+#include<cmath>
 using namespace std;
 
 
@@ -10,10 +11,23 @@ int random (int,int,int);
 int main()
 {
     int n, cont=0,hd=0,ho=0;
+    float d=0, dx=0,dy=0, timed=0, timeo=0;
     hd= random(1,0,100);
     cout << "Altura canon defensivo: " << hd << endl;
     ho= random(1,0,100);
     cout << "Altura canon ofensivo: " << hd << endl;
+    int posd[2]= {100, hd},poso[2]= {1, ho};//Posiciones de los dos cañones
+
+    dx= posd[0]-poso[0];
+    dx=dx*dx;
+    dy= posd[1]-poso[1];
+    dy=dy*dy;
+    d=dx+dy;
+    d= sqrt(d);//Pitagorazo para saber la distancia con los valores de los cañones
+    timed= ;
+    timeo= ;
+
+
 
 
 
@@ -30,3 +44,9 @@ int random (int n, int desde, int hasta){
     return aleatorio;
             }
 }
+
+
+
+
+
+//https://github.com/Hesdek/Parcial1Info.git
