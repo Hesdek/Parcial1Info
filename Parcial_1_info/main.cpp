@@ -3,7 +3,11 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello world";
+    int n, cont=0;
+    cout << "Ingrese la cadena 1: ";
+    cin>>n;
+    //while(array[cont]!='\0'){cont++;}
+    //for (int i=0; i<100; i++)
 
 
 }
