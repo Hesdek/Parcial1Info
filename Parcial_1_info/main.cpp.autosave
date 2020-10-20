@@ -19,12 +19,7 @@ int main()
     cout << "Altura canon defensivo: " << hd << endl;
     cout << "Altura canon ofensivo: " << ho << endl;
     int posd[2]= {600, hd},poso[2]= {0, ho};//Posicion del canon ofensivo
-
-
-/*
-    ango=random(1,91,180);//angulo random del cañon inicial
-    cout << "angulo canon ofensivo: " << ango << endl;
-*/
+    
 
     cout <<endl<<"| Que caso quiere simular:                         |"<<endl;
     cout << "| Generar disparos contra el canon defensivo    (1)|"<< endl;
@@ -138,9 +133,3 @@ float pitagoras (float x1, float y1, float x2, float y2){
 
 
 //https://github.com/Hesdek/Parcial1Info.git
-
-
-
-
-//while(array[cont]!='\0'){cont++;}
-//for (int i=0; i<100; i++)
